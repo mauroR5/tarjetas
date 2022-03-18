@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1024px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   position: absolute;
+
+ 
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+
+}
+
+/*header*/
+
+.header {
+    width: 100vw;
+    height: 30vh;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header .top{
+    width: 100vw;
+    height: 30vh;
+    background-color: #D1891C;
+}
+.header .top .descuentotop{
+    display: inline-block;
+    color: #333333;
+    font-size: 1rem;
+    margin: 3px 0 0 30px;
+    padding: 2px;
+}
+
+.header .conten-title{
+    width: 100vw;
+    height: 70vh;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.header .conten-title .title {
+    display: inline-block;
+    font-size: 3rem;
+    color: #ffffff;
+
+}
+
+
+
+/*main*/
+
+.main {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+    height: 60vh;
+    margin: 50px 0 0 0;
+    
+
+}
+.conten-cards {
+    background-color: #F3F3F3;
+    margin: 20px 0px 20px 0px;
+    width: 40vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/*cards*/
+
+.imagenfondo{
+    width: 40vw;
+    height: 300px;
+}
+
+.imagencentral{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 80px;
+    
+}
+
+.namesuper{
+    font-size: 2rem;
+    position: relative;
+    bottom: 80px;
+}
+
+.textodelsuper{
+    font-size: 1rem;
+    width: 38vw;
+    position: relative;
+    bottom: 50px;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+
+
+.buttoncards{
+    background-color: #00669F;
+    color: #dddddd;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    margin: 0 0 20px 0;
+}
+
+
+
+/*footer*/
+
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color:#00669F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.copiright{
+    margin: 5px;
+    color: #dddddd;
+    position: relative;
+    left:300px;
+}
+
+.github{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+
+
+
